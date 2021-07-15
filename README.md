@@ -23,7 +23,7 @@ It will fetch all the atms which have the same city as taken in input
 
 If city is not present, then showing custom message with status 404
 For example,
-http://localhost:8082/api/atms/city?city=Ranchi
+http://localhost:8082/api/atms/city?city=Bangalore
 
  If city is blank, then throwing custom error message with status 400(Bad request) 
  http://localhost:8082/api/atms/city?city=
