@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "19a11511-b1a6-4ece-b6f1-6fb9c71f73e8",
+		"name": "atms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_All_Atms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/atms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"atms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Atms_Based_on_City",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/atms/city?city=MAASTRICHT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"atms",
+						"city"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "MAASTRICHT"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
